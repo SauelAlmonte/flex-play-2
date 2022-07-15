@@ -1,0 +1,42 @@
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 5px solid black; */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    color: #4b4b4b;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+
+.navbar > p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+#left {
+    border: 5px solid red;
+    align-items: center;
+    width: 120px;
+}
+
+#right {
+    border: 5px solid red;
+    align-items: center;
+    width: 250px;
+}
+
+#right img {
+    border-radius: 50%;
+}
+
+abbr {
+    cursor: pointer;
+}
