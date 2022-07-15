@@ -1,8 +1,21 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');*/
+/*@import url('https://fonts.googleapis.com/css2?family=Open+Sans:family=Roboto&display=swap');*/
+/*@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:family=Roboto&display=swap');*/
+
+* {
+    /*font-family: 'Roboto', sans-serif;*/
+    background-color: #FAFAFA;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 #nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* border: 5px solid black; */
+    border: 5px solid black;
+    height: 8vh;
 }
 
 .navbar {
@@ -12,6 +25,7 @@
     font-family: sans-serif;
     font-weight: 400;
     font-size: 14px;
+    width: 100vw;
 
 }
 
@@ -39,4 +53,17 @@
 
 abbr {
     cursor: pointer;
+}
+
+#google-div {
+    border: 4px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    padding-top: 50px;
+}
+
+#google-img {
+    border: 4px solid orange;
 }
