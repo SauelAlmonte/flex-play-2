@@ -61,8 +61,8 @@ abbr {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40vh;
-    padding-top: 50px;
+    height: 30vh;
+    /*padding-top: 50px;*/
 }
 
 #google-img {
