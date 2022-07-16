@@ -115,3 +115,56 @@ abbr {
     margin: 10px;
 }
 /* Google Search Area End */
+
+/* Vote Area Start */
+.vote-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*margin: 10px;*/
+    /*padding: 20px;*/
+    border: 4px solid purple;
+}
+
+.inner-section {
+    display: flex;
+    align-items: center;
+    border: 4px solid blue;
+    /*margin: 10px;*/
+    /*padding: 20px;*/
+}
+
+#vote-img {
+    height: 50px;
+    width: 55px;
+    padding-right: 10px;
+}
+
+span.elect {
+    padding-right: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+p.inner-section a {
+    font-size: 18px;
+}
+/* Vote Area Ends */
+
+/* Footer Start */
+.footer {
+    display: flex;
+    flex: 1 0 auto;
+    justify-content: center;
+    border: 5px solid red;
+}
+
+.footer-menu {
+    /*display: inline-flex;*/
+    /*flex: 1;*/
+    border: 5px solid orange;
+    align-items: center;
+    justify-content: center;
+}
+/* Footer Ends */
