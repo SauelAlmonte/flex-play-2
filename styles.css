@@ -3,6 +3,7 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:family=Roboto&display=swap');*/
 
 /*Body Start*/
+
 * {
     /*font-family: 'Roboto', sans-serif;*/
     background-color: #FAFAFA;
@@ -187,6 +188,10 @@ input#google-search {
     border: 4px solid red;
     justify-content: center;
     display: flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 .footer {
